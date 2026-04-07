@@ -1,0 +1,30 @@
+# Secrets
+.env
+*.key
+
+# Large model files
+*.pkl
+*.pt
+*.pth
+*.h5
+
+# Datasets (large)
+data/raw/*.csv
+data/raw/*.zip
+data/raw/*.gz
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Results (optional)
+results/*.csv
+results/*.json
+results/*.png
