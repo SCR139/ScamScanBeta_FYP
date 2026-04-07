@@ -237,15 +237,12 @@ If you use ScamScan Beta in your research, please cite:
     PakYuMarco, Chan. (2026). ScamScan Beta: A Multi‑Modal Transformer with
     Hierarchical Decision Fusion for Real‑World Phishing Detection.
 
-For the datasets and baseline comparisons:
+For the datasets download:
 
-    Aljofey, A., Qasem, Z. A. H., Lu, J., Xu, C., Liu, Z., & Zou, Y. (2026).
-    A hybrid deep learning model for robust phishing URL detection.
-    Computers & Security, 142, 104267.
+PhisUSIL (Prasad, A., & Chandra, S., 2023): https://archive.ics.uci.edu/dataset/967/phiusiil+phishing+url+dataset
+Kaggle (Hannousse & Yahiouche, 2021): https://www.kaggle.com/datasets/shashwatwork/web-page-phishing-detection-dataset
+Mendeley Dataset(Potpelwar et al., 2025): https://data.mendeley.com/datasets/hx4m73v2sf/2
 
-    Basystiuk, L., & Lutska-Hrabovska, K. (2026). Deterministic Boolean-algebra
-    framework for interpretable and energy-efficient phishing URL detection.
-    Applied Sciences, 16(5), 2170.
 
 ================================================================================
 11.  LICENSE
