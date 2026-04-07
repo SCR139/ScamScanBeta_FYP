@@ -1,0 +1,581 @@
+
+        {"google": {
+            "weight": 0.95,
+            "common_variations": ["g00gle", "go0gle", "g0ogle", "googl3", "9oogle",
+                                "g00gl3", "g()()gle", "g@@gle", "g<>gle", "g[]gle",
+                                "g_0_0_g_l_e", "g-0-0-g-l-e"],
+            "common_misspellings": ["googel", "gogle", "goole", "goolge", "gogole",
+                                   "goggle", "goofle", "goigle", "goolgle"],
+            "related_keywords": ["search", "gmail", "drive", "docs", "youtube", "android",
+                                "chrome", "play", "maps", "photos"]
+        },
+        "facebook": {
+            "weight": 0.92,
+            "common_variations": ["faceb00k", "faceb0ok", "fac3book", "f4cebook",
+                                "faceb()()k", "faceb@@k", "f@ceb00k", "f@ceb@@k",
+                                "face-book", "face_b00k", "f@c3b00k"],
+            "common_misspellings": ["facebok", "facbook", "faceboook", "faceboock",
+                                   "facebool", "facebooj", "facebookk", "faceebook"],
+            "related_keywords": ["fb", "meta", "instagram", "whatsapp", "messenger",
+                               "oculus", "workplace", "marketplace"]
+        },
+        "amazon": {
+            "weight": 0.93,
+            "common_variations": ["amaz0n", "4mazon", "amaz()n", "@mazon",
+                                "amaz0nn", "4maz0n", "@m@z0n", "4m@z0n",
+                                "am@zon", "am@z0n", "amazon-web", "aws-amazon"],
+            "common_misspellings": ["amzon", "amazzon", "amazonn", "amazone",
+                                   "amazom", "amazin", "amazpn", "amazob"],
+            "related_keywords": ["aws", "prime", "alexa", "kindle", "shop",
+                               "marketplace", "fresh", "music", "video"]
+        },
+        "apple": {
+            "weight": 0.90,
+            "common_variations": ["app1e", "appl3", "4pple", "@pple",
+                                "appl3", "4ppl3", "@ppl3", "app|e",
+                                "app!e", "appie", "apple-id", "apple-pay"],
+            "common_misspellings": ["appel", "aple", "appple", "applle",
+                                   "appke", "appme", "appld", "applr"],
+            "related_keywords": ["iphone", "ipad", "mac", "ios", "icloud",
+                               "appstore", "itunes", "watch", "airpods"]
+        },
+        "microsoft": {
+            "weight": 0.89,
+            "common_variations": ["micros0ft", "m1crosoft", "micr0soft",
+                                "micros()ft", "m1cr0s0ft", "m!cr0s0ft",
+                                "micro-soft", "micro_soft", "msft"],
+            "common_misspellings": ["microsft", "micorsoft", "mircosoft", "microsoftt",
+                                   "microsift", "microsost", "micrisoft", "mucrosoft"],
+            "related_keywords": ["windows", "office", "azure", "xbox", "outlook",
+                               "teams", "onedrive", "surface", "linkedin"]
+        },
+        "paypal": {
+            "weight": 0.96,
+            "common_variations": ["paypa1", "payp4l", "pa1pal", "p4yp4l",
+                                "payp@l", "p@yp@l", "pay-pal", "pay_pal",
+                                "p@yp@1", "p@yp@!", "paypal-me", "pp"],
+            "common_misspellings": ["paypall", "paypol", "paypaal", "payypal",
+                                   "paypsl", "payoal", "paypalp", "paypam"],
+            "related_keywords": ["payment", "money", "transfer", "account", "security",
+                               "checkout", "business", "credit", "debit"]
+        },
+
+        "instagram": {
+            "weight": 0.85,
+            "common_variations": ["1nstagram", "instagr4m", "inst4gram", "!nstagram",
+                                "inst@gram", "1nst@gr@m", "insta-gram", "insta_gram"],
+            "common_misspellings": ["instgram", "instagam", "instragam", "instagran",
+                                   "instagramm", "instagran", "instagrem"],
+            "related_keywords": ["ig", "insta", "reels", "story", "filter", "dm"]
+        },
+        "twitter": {
+            "weight": 0.82,
+            "common_variations": ["tw1tter", "twitt3r", "tw1tt3r", "tw!tter",
+                                "tw!tt3r", "tw@tter", "twitt-er", "twitt_er"],
+            "common_misspellings": ["twiter", "tweeter", "twtter", "twittter",
+                                   "twiterr", "twiiter", "twittr"],
+            "related_keywords": ["tweet", "retweet", "x", "xcom", "spaces", "fleet"]
+        },
+        "tiktok": {
+            "weight": 0.84,
+            "common_variations": ["t1kt0k", "tikt0k", "t!kt0k", "t1ktok",
+                                "t!ktok", "tik-tok", "tik_tok", "t!k-t0k"],
+            "common_misspellings": ["ticktock", "tictok", "tiktock", "tiktook",
+                                   "tiktik", "tikttok", "tiktocker"],
+            "related_keywords": ["douyin", "for-you", "fyp", "creator", "video"]
+        },
+        "whatsapp": {
+            "weight": 0.86,
+            "common_variations": ["whats4pp", "whats@pp", "wh4tsapp", "wh@tsapp",
+                                "whats-app", "whats_app", "whatsapp-web"],
+            "common_misspellings": ["whatsap", "whatsappp", "whatsape", "whatsupp",
+                                   "whatzapp", "watsapp", "whatsapppp"],
+            "related_keywords": ["wa", "message", "chat", "call", "status", "business"]
+        },
+        "snapchat": {
+            "weight": 0.78,
+            "common_variations": ["snapch4t", "sn@pchat", "snapch@t", "sn@pch@t",
+                                "snap-chat", "snap_chat"],
+            "common_misspellings": ["snapchatt", "snapcaht", "snapchhat", "snapchatt",
+                                   "snapchit", "snapchot"],
+            "related_keywords": ["snap", "story", "filter", "lens", "streak"]
+        },
+        "netflix": {
+            "weight": 0.87,
+            "common_variations": ["netf1ix", "netfl1x", "n3tflix", "n3tfl1x",
+                                "n@tflix", "netf!ix", "net-flix", "net_flix"],
+            "common_misspellings": ["netflex", "netflicks", "netfliz", "netflixx",
+                                   "netfliix", "netfliks", "netfli"],
+            "related_keywords": ["stream", "watch", "movies", "series", "profile"]
+        },
+        "youtube": {
+            "weight": 0.88,
+            "common_variations": ["y0utube", "youtub3", "y0utub3", "y@utube",
+                                "youtub3", "you-tube", "you_tube", "yt"],
+            "common_misspellings": ["youtub", "youtibe", "youtubbe", "youtuve",
+                                   "youtubee", "youtubr", "youtoub"],
+            "related_keywords": ["yt", "video", "channel", "subscribe", "creator"]
+        },
+        "spotify": {
+            "weight": 0.81,
+            "common_variations": ["sp0tify", "spot1fy", "sp0t1fy", "sp@tify",
+                                "spot!fy", "spot-ify", "spot_ify"],
+            "common_misspellings": ["spotfy", "spotifly", "spotifi", "spotiffy",
+                                   "spotifie", "spotifai", "spotifey"],
+            "related_keywords": ["music", "stream", "playlist", "podcast", "premium"]
+        },
+        "disneyplus": {
+            "weight": 0.79,
+            "common_variations": ["d!sneyplus", "disn3yplus", "d1sneyplus",
+                                "disney-plus", "disney_plus", "disney+"],
+            "common_misspellings": ["disnyplus", "disneypls", "disneypluse", "disneypluss"],
+            "related_keywords": ["disney", "plus", "marvel", "starwars", "pixar"]
+        },
+        "ebay": {
+            "weight": 0.86,
+            "common_variations": ["3bay", "eb4y", "3b4y", "eb@y", "@bay"],
+            "common_misspellings": ["eaby", "e-bay", "e_bay", "ebbay", "ebbayy"],
+            "related_keywords": ["auction", "buy", "sell", "bid", "shopping"]
+        },
+        "alibaba": {
+            "weight": 0.83,
+            "common_variations": ["al1baba", "alib4b4", "alib@b@", "@libaba"],
+            "common_misspellings": ["alibab", "alibabba", "alibabaa", "alibabah"],
+            "related_keywords": ["b2b", "wholesale", "china", "supplier", "trade"]
+        },
+        "shopify": {
+            "weight": 0.80,
+            "common_variations": ["sh0pify", "shop1fy", "sh0p1fy", "sh@pify"],
+            "common_misspellings": ["shopfy", "shoppify", "shopifie", "shopiffy"],
+            "related_keywords": ["store", "ecommerce", "merchant", "checkout"]
+        },
+        "etsy": {
+            "weight": 0.77,
+            "common_variations": ["3tsy", "etsy", "3tsy", "@tsy"],
+            "common_misspellings": ["etsi", "etsyy", "ettsey", "etsie"],
+            "related_keywords": ["handmade", "vintage", "craft", "seller"]
+        },
+        "chase": {
+            "weight": 0.96,
+            "common_variations": ["ch4se", "chas3", "ch@s3", "ch@se",
+                                "chase-bank", "chasebank", "chase-online"],
+            "common_misspellings": ["chaze", "chace", "chasse", "chassee"],
+            "related_keywords": ["bank", "creditcard", "mortgage", "loan", "checking"]
+        },
+        "bankofamerica": {
+            "weight": 0.95,
+            "common_variations": ["bank0famerica", "b4nkofamerica", "bankof@merica",
+                                "b@nkofamerica", "boa", "bank-of-america"],
+            "common_misspellings": ["bankofamerika", "bankofamericca", "bankofamarica"],
+            "related_keywords": ["bofa", "merrill", "preferred", "platinum"]
+        },
+        "wellsfargo": {
+            "weight": 0.95,
+            "common_variations": ["wellsf4rgo", "wellsfarg0", "wellsf@rgo",
+                                "wellsf@rg0", "wells-fargo", "wells_fargo"],
+            "common_misspellings": ["wellsfargoo", "wellsfarg", "wellsfargoes"],
+            "related_keywords": ["bank", "mortgage", "investing", "advisors"]
+        },
+        "citi": {
+            "weight": 0.94,
+            "common_variations": ["c1ti", "cit1", "c1t1", "c!t!",
+                                "citi-bank", "citibank", "citi-online"],
+            "common_misspellings": ["city", "citti", "citee", "cittie"],
+            "related_keywords": ["creditcard", "bank", "premier", "thankyou"]
+        },
+        "hsbc": {
+            "weight": 0.93,
+            "common_variations": ["h5bc", "hsbс", "h5bс", "hsbc-bank",
+                                "hsbc-online", "hsbc-digital"],
+            "common_misspellings": ["hbsbc", "hssbc", "hsbcc", "hsbcb"],
+            "related_keywords": ["bank", "uk", "hongkong", "premier", "advance"]
+        },
+        "barclays": {
+            "weight": 0.92,
+            "common_variations": ["b4rclays", "barcl4ys", "b4rcl4ys",
+                                "b@rcl@ys", "barclays-bank", "barclays-online"],
+            "common_misspellings": ["barclay", "barclais", "barclayes", "barclaise"],
+            "related_keywords": ["bank", "uk", "creditcard", "mortgage"]
+        },
+        "santander": {
+            "weight": 0.91,
+            "common_variations": ["sant4nder", "santand3r", "s4nt4nd3r",
+                                "s@nt@nd3r", "santander-bank"],
+            "common_misspellings": ["santendar", "santanderr", "santandor", "santandar"],
+            "related_keywords": ["bank", "spain", "brazil", "uk", "mortgage"]
+        },
+        "coinbase": {
+            "weight": 0.89,
+            "common_variations": ["c0inbase", "coinb4se", "c0inb4se",
+                                "c0!nb@se", "coin-base", "coin_base"],
+            "common_misspellings": ["coinbas", "coinbasse", "coinbasee", "coinbace"],
+            "related_keywords": ["crypto", "bitcoin", "ethereum", "wallet", "exchange"]
+        },
+        "binance": {
+            "weight": 0.90,
+            "common_variations": ["b1nance", "bin4nce", "b1n4nce",
+                                "b!n@nce", "binance-us", "binance-global"],
+            "common_misspellings": ["binanse", "binnance", "binancee", "binanace"],
+            "related_keywords": ["crypto", "exchange", "bnb", "tokens", "defi"]
+        },
+        "metamask": {
+            "weight": 0.88,
+            "common_variations": ["metam4sk", "metam@sk", "m3tamask",
+                                "m3t@m@sk", "meta-mask", "meta_mask"],
+            "common_misspellings": ["metamaskk", "metamaskio", "metamaskapp", "metamassk"],
+            "related_keywords": ["wallet", "ethereum", "crypto", "web3", "dapps"]
+        },
+        "trustwallet": {
+            "weight": 0.87,
+            "common_variations": ["trustw4llet", "trustw@llet", "trvstw4llet",
+                                "trust-wallet", "trust_wallet"],
+            "common_misspellings": ["trustwalet", "trustwallette", "trustwallett"],
+            "related_keywords": ["wallet", "crypto", "binance", "tokens"]
+        },
+        "stripe": {
+            "weight": 0.85,
+            "common_variations": ["str1pe", "strip3", "str!p3",
+                                "str!pe", "stripe-payments"],
+            "common_misspellings": ["stripee", "strippe", "striper", "stripes"],
+            "related_keywords": ["payments", "api", "checkout", "billing"]
+        },
+        "square": {
+            "weight": 0.82,
+            "common_variations": ["squ4re", "squ@re", "sqv@re",
+                                "square-up", "square-cash"],
+            "common_misspellings": ["sqare", "squre", "squaare", "squaree"],
+            "related_keywords": ["cashapp", "payments", "pos", "register"]
+        },
+        "venmo": {
+            "weight": 0.84,
+            "common_variations": ["v3nmo", "venm0", "v3nm0",
+                                "venmo-app", "venmo-pay"],
+            "common_misspellings": ["venmoo", "vemno", "vennmo", "venm"],
+            "related_keywords": ["pay", "friends", "money", "transfer"]
+        },
+        "cashapp": {
+            "weight": 0.83,
+            "common_variations": ["c4shapp", "cash4pp", "c@shapp",
+                                "c@sh@pp", "cash-app", "cash_app"],
+            "common_misspellings": ["cashap", "cashappp", "cashappe", "cashaapp"],
+            "related_keywords": ["square", "money", "bitcoin", "transfer"]
+        },
+        "adobe": {
+            "weight": 0.80,
+            "common_variations": ["ad0be", "adob3", "@dobe",
+                                "@d0b3", "adobe-cloud", "adobe-creative"],
+            "common_misspellings": ["adobee", "adobea", "adob", "adobeed"],
+            "related_keywords": ["photoshop", "illustrator", "pdf", "creativecloud"]
+        },
+        "dropbox": {
+            "weight": 0.79,
+            "common_variations": ["dr0pbox", "dropb0x", "dr0pb0x",
+                                "dr0pb0x", "drop-box", "drop_box"],
+            "common_misspellings": ["dropbocks", "dropbax", "dropboks", "dropboxx"],
+            "related_keywords": ["storage", "cloud", "share", "files", "sync"]
+        },
+        "salesforce": {
+            "weight": 0.78,
+            "common_variations": ["s4lesforce", "salesf0rce", "s4lesf0rce",
+                                "sales-force", "sales_force"],
+            "common_misspellings": ["salesforse", "salesforc", "salesforrce"],
+            "related_keywords": ["crm", "cloud", "business", "marketing"]
+        },
+        "zoom": {
+            "weight": 0.81,
+            "common_variations": ["z00m", "z0om", "z()()m",
+                                "z@@m", "zoom-us", "zoom-video"],
+            "common_misspellings": ["zoome", "zoomm", "zom", "zooma"],
+            "related_keywords": ["meeting", "video", "conference", "webinar"]
+        },
+        "irs": {
+            "weight": 0.97,
+            "common_variations": ["1rs", "!rs", "!r$", "1r$",
+                                "irs-gov", "irs-online", "irs-payment"],
+            "common_misspellings": ["irss", "ir", "irsi", "irsss"],
+            "related_keywords": ["tax", "refund", "payment", "government", "treasury"]
+        },
+        "socialsecurity": {
+            "weight": 0.96,
+            "common_variations": ["s0cialsecurity", "socials3curity",
+                                "s0c1als3curity", "social-security"],
+            "common_misspellings": ["socialsecurety", "socialsecurtiy", "socialsecurty"],
+            "related_keywords": ["ssa", "ssn", "benefits", "retirement", "disability"]
+        },
+        "medicare": {
+            "weight": 0.94,
+            "common_variations": ["med1care", "medic4re", "med!care",
+                                "medicare-gov", "medicare-online"],
+            "common_misspellings": ["medicarre", "mediccare", "medicere", "medicair"],
+            "related_keywords": ["health", "insurance", "government", "senior"]
+        },
+        "verizon": {
+            "weight": 0.83,
+            "common_variations": ["ver1zon", "veriz0n", "v3rizon",
+                                "verizon-wireless", "verizon-online"],
+            "common_misspellings": ["verrizon", "verizone", "verizonn", "verizion"],
+            "related_keywords": ["wireless", "5g", "fios", "mobile", "internet"]
+        },
+        "att": {
+            "weight": 0.82,
+            "common_variations": ["@tt", "4tt", "att-wireless",
+                                "att-mobility", "att-online"],
+            "common_misspellings": ["attt", "at&t", "attandt", "atandt"],
+            "related_keywords": ["wireless", "internet", "directv", "mobile"]
+        },
+        "tmobile": {
+            "weight": 0.81,
+            "common_variations": ["tm0bile", "tmob1le", "t-mobile",
+                                "tmobile-us", "tmobile-online"],
+            "common_misspellings": ["tmoible", "tmobil", "tmoibile", "tmobiel"],
+            "related_keywords": ["wireless", "5g", "sprint", "mobile"]
+        },
+        "airbnb": {
+            "weight": 0.84,
+            "common_variations": ["airbnb", "4irbnb", "@irbnb",
+                                "air-bnb", "air_bnb", "airbnb-com"],
+            "common_misspellings": ["airbb", "airbnbb", "airbn", "airbnnb"],
+            "related_keywords": ["rental", "vacation", "host", "booking", "travel"]
+        },
+        "booking": {
+            "weight": 0.82,
+            "common_variations": ["b00king", "book1ng", "b00k1ng",
+                                "booking-com", "booking-online"],
+            "common_misspellings": ["bookin", "bookking", "bookng", "bookign"],
+            "related_keywords": ["hotel", "travel", "reservation", "accommodation"]
+        },
+        "expedia": {
+            "weight": 0.81,
+            "common_variations": ["exped1a", "exped!a", "exped!@",
+                                "expedia-com", "expedia-travel"],
+            "common_misspellings": ["expedya", "expediea", "expediaa", "expecia"],
+            "related_keywords": ["travel", "flight", "hotel", "car", "vacation"]
+        },
+        "ubereats": {
+            "weight": 0.83,
+            "common_variations": ["ub3reats", "uber3ats", "ub3r3@ts",
+                                "uber-eats", "uber_eats"],
+            "common_misspellings": ["ubereat", "ubereatss", "uberets", "uberreats"],
+            "related_keywords": ["food", "delivery", "restaurant", "order"]
+        },
+        "doordash": {
+            "weight": 0.82,
+            "common_variations": ["d00rdash", "doord4sh", "d00rd4sh",
+                                "door-dash", "door_dash"],
+            "common_misspellings": ["doordassh", "doordarsh", "doordas", "doordashh"],
+            "related_keywords": ["food", "delivery", "dasher", "restaurant"]
+        },
+        "grubhub": {
+            "weight": 0.80,
+            "common_variations": ["grubhub", "grubhvb", "grvbhvb",
+                                "grub-hub", "grub_hub"],
+            "common_misspellings": ["grubhubbb", "grubhubb", "grubhubh", "grubbhub"],
+            "related_keywords": ["food", "delivery", "order", "restaurant"]
+        },
+        "steam": {
+            "weight": 0.85,
+            "common_variations": ["st3am", "ste@m", "st3@m",
+                                "steam-game", "steam-store"],
+            "common_misspellings": ["steamm", "steamme", "steem", "stteam"],
+            "related_keywords": ["gaming", "valve", "games", "community", "market"]
+        },
+        "epicgames": {
+            "weight": 0.83,
+            "common_variations": ["ep1cgames", "epicgam3s", "3picgam3s",
+                                "epic-games", "epic_games"],
+            "common_misspellings": ["epicgame", "epicgamess", "epicgam", "epickgames"],
+            "related_keywords": ["fortnite", "unreal", "store", "gaming"]
+        },
+        "roblox": {
+            "weight": 0.82,
+            "common_variations": ["r0blox", "robl0x", "r0bl0x",
+                                "rob-lox", "rob_lox"],
+            "common_misspellings": ["rooblox", "robolox", "robloxx", "robox"],
+            "related_keywords": ["game", "kids", "avatar", "robux", "developer"]
+        },
+        "coursera": {
+            "weight": 0.79,
+            "common_variations": ["c0ursera", "cours3ra", "c0urs3ra",
+                                "coursera-org", "coursera-online"],
+            "common_misspellings": ["courserra", "courseraa", "coursere", "coursere"],
+            "related_keywords": ["courses", "learning", "university", "certificate"]
+        },
+        "udemy": {
+            "weight": 0.78,
+            "common_variations": ["ud3my", "udem!", "ud3m!",
+                                "udemy-com", "udemy-courses"],
+            "common_misspellings": ["udemey", "udemyy", "udemi", "udemmy"],
+            "related_keywords": ["courses", "learning", "online", "instructor"]
+        },
+        "linkedinlearning": {
+            "weight": 0.80,
+            "common_variations": ["l1nkedinlearning", "linked1nlearning",
+                                "linkedin-learning", "linkedin_learning"],
+            "common_misspellings": ["linkedinlearnin", "linkedinlearing", "linkedinlearnign"],
+            "related_keywords": ["courses", "skills", "business", "professional"]
+        },
+          "bankofamerica": {
+            "weight": 0.80,
+            "common_variations": ["bankofameric@", "bank0famerica",
+                                "bankof@merica", "bankofamer1ca"],
+            "common_misspellings": ["bankofameric", "bankfamerica", "bankofamerca"],
+            "related_keywords": ["bank", "credit", "card", "password","urgent","alert"]
+        },
+          "capitalone": {
+           "weight": 0.96,
+            "common_variations": ["capit@lone", "capit4lone", "c@pitalone", "capital0ne",
+                            "cap1talone", "capit@l0ne", "c@pit@l0ne", "capital-one",
+                            "capital_one", "capital1", "c1"],
+            "common_misspellings": ["capitolone", "capitalon", "capitalonne", "capitlone",
+                               "capatalone", "capitaloan", "capitalonw"],
+             "related_keywords": ["bank", "creditcard", "venture", "savor", "checking",
+                           "savings", "auto", "business", "360"]
+    },
+    "wellsfargo": {
+        "weight": 0.96,
+        "common_variations": ["wellsf4rgo", "wellsfarg0", "wellsf@rgo", "wellsf@rg0",
+                            "wells-fargo", "wells_fargo", "wellsfargo-com", "wf",
+                            "wells-fargo-bank", "wellsfargo-online"],
+        "common_misspellings": ["wellsfargoo", "wellsfarg", "wellsfargoes", "wellsfargoing",
+                               "welsfargo", "wellsfargobank", "wellsfargohelp"],
+        "related_keywords": ["bank", "mortgage", "investing", "advisors", "checking",
+                           "savings", "creditcard", "autograph", "activecash"]
+    },
+    "ally": {
+        "weight": 0.94,
+        "common_variations": ["@lly", "4lly", "@l1y", "4l1y", "ally-bank",
+                            "allybank", "ally-online", "allyfinancial"],
+        "common_misspellings": ["allly", "alley", "aly", "allie", "alli", "alyes"],
+        "related_keywords": ["bank", "savings", "checking", "cd", "money-market",
+                           "invest", "roth", "ira", "nofee"]
+    },
+    "discover": {
+        "weight": 0.94,
+        "common_variations": ["d1scover", "disc0ver", "d1sc0ver", "discover-bank",
+                            "discoverbank", "discovercard", "discover-com"],
+        "common_misspellings": ["disover", "disciver", "discoverr", "discovr",
+                               "discoer", "discovercardd", "discoveronline"],
+        "related_keywords": ["creditcard", "bank", "checking", "savings", "money-market",
+                           "cd", "student", "it", "chrome", "miles"]
+    },
+    "sofi": {
+        "weight": 0.92,
+        "common_variations": ["s0fi", "sofi", "s0f1", "so-fi", "so_fi",
+                            "sofi-bank", "sofi-com", "sofi-money"],
+        "common_misspellings": ["sofee", "sophi", "sofe", "soffi", "soify", "sofiinvest"],
+        "related_keywords": ["bank", "checking", "savings", "invest", "loan",
+                           "refinance", "creditcard", "money", "financial"]
+    },
+    "axos": {
+        "weight": 0.91,
+        "common_variations": ["ax0s", "@xos", "axos-bank", "axosbank",
+                            "axos-com", "axos-online"],
+        "common_misspellings": ["axoss", "axo", "axosbankk", "axosfin"],
+        "related_keywords": ["bank", "checking", "savings", "cd", "mortgage",
+                           "business", "invest", "rewards"]
+    },
+    "hang seng": {
+        "weight": 0.93,
+        "common_variations": ["hangseng", "hang-seng", "hang_seng", "hangseng-bank",
+                            "hangsengbank", "hangseng-com", "hs"],
+        "common_misspellings": ["hangsang", "hanseng", "hangsengg", "hangsengbankk"],
+        "related_keywords": ["bank", "hongkong", "china", "wealth", "premier",
+                           "creditcard", "mortgage", "investment"]
+    },
+    "bbva": {
+        "weight": 0.93,
+        "common_variations": ["bbv@", "bbva", "bbva-bank", "bbvabank",
+                            "bbva-com", "bbva-online", "bbvanet"],
+        "common_misspellings": ["bbvva", "bva", "bbav", "bbvacom", "bbvab"],
+        "related_keywords": ["bank", "spain", "mexico", "digital", "app",
+                           "creditcard", "loan", "insurance", "pension"]
+    },
+    "citizens": {
+        "weight": 0.92,
+        "common_variations": ["cit1zens", "citizens-bank", "citizensbank",
+                            "citizens-com", "citizens-online"],
+        "common_misspellings": ["citizenz", "citizenss", "citzen", "citizensbankk"],
+        "related_keywords": ["bank", "checking", "savings", "creditcard", "mortgage",
+                           "student", "business", "wealth"]
+    },
+    "pnc": {
+        "weight": 0.92,
+        "common_variations": ["pnc", "pnc-bank", "pncbank", "pnc-com",
+                            "pnc-online", "pnc-mobile"],
+        "common_misspellings": ["pncb", "pncc", "pncva", "pncvirtual"],
+        "related_keywords": ["bank", "checking", "savings", "creditcard", "mortgage",
+                           "virtual-wallet", "business", "invest"]
+    },
+    "truist": {
+        "weight": 0.92,
+        "common_variations": ["tru1st", "truist-bank", "truistbank",
+                            "truist-com", "truist-online"],
+        "common_misspellings": ["trust", "truis", "truistt", "truistbankk"],
+        "related_keywords": ["bank", "merger", "bbt", "suntrust", "checking",
+                           "savings", "creditcard", "mortgage", "wealth"]
+    },
+    "us bank": {
+        "weight": 0.93,
+        "common_variations": ["usbank", "us-bank", "us_bank", "usbank-com",
+                            "usbank-online", "usbankrewards"],
+        "common_misspellings": ["usbanc", "usbankk", "usbanking", "usbankonline"],
+        "related_keywords": ["bank", "checking", "savings", "creditcard", "mortgage",
+                           "business", "wealth", "altitude", "kay"]
+    },
+    "keybank": {
+        "weight": 0.91,
+        "common_variations": ["keybank", "key-bank", "key_bank", "keybank-com",
+                            "keybank-online"],
+        "common_misspellings": ["keybanc", "keybankk", "keybanking", "keybnk"],
+        "related_keywords": ["bank", "checking", "savings", "creditcard", "mortgage",
+                           "business", "key", "private"]
+    },
+    "fifth third": {
+        "weight": 0.90,
+        "common_variations": ["fifththird", "5ththird", "5th-3rd", "53",
+                            "fifth-third", "fifth_third"],
+        "common_misspellings": ["fifthird", "5third", "fiththird", "fifth3rd"],
+        "related_keywords": ["bank", "checking", "savings", "creditcard", "mortgage",
+                           "business", "mobile"]
+    },
+    "huntington": {
+        "weight": 0.90,
+        "common_variations": ["huntington", "huntington-bank", "huntingtonbank",
+                            "huntington-com", "huntington-online"],
+        "common_misspellings": ["huntingtom", "huntingtun", "huntingtn", "huntingdon"],
+        "related_keywords": ["bank", "checking", "savings", "creditcard", "mortgage",
+                           "business", "asterisk", "voice"]
+    },
+    "m&t": {
+        "weight": 0.90,
+        "common_variations": ["m&t", "m-t", "mandt", "mt-bank", "mtbank",
+                            "mandt-bank", "mandtbank"],
+        "common_misspellings": ["mnt", "mtd", "mandd", "m&tb"],
+        "related_keywords": ["bank", "checking", "savings", "creditcard", "mortgage",
+                           "business", "wilmington"]
+    },
+    "regions": {
+        "weight": 0.91,
+        "common_variations": ["regions", "regions-bank", "regionsbank",
+                            "regions-com", "regions-online"],
+        "common_misspellings": ["region", "regionz", "regionss", "regins"],
+        "related_keywords": ["bank", "checking", "savings", "creditcard", "mortgage",
+                           "business", "wealth", "south"]
+    },
+    "santander": {
+        "weight": 0.92,
+        "common_variations": ["santander", "santander-bank", "santanderbank",
+                            "santander-com", "santander-online"],
+        "common_misspellings": ["santendar", "santanderr", "santandor", "santanda"],
+        "related_keywords": ["bank", "uk", "spain", "brazil", "checking",
+                           "savings", "creditcard", "mortgage", "select"]
+    },
+    "td bank": {
+        "weight": 0.93,
+        "common_variations": ["tdbank", "td-bank", "td_bank", "tdbank-com",
+                            "tdbank-online", "td"],
+        "common_misspellings": ["tdbanc", "tdbankk", "tdbanking", "tdbnk"],
+        "related_keywords": ["bank", "canada", "us", "checking", "savings",
+                           "creditcard", "mortgage", "business", "convenience"]
+    }
+          }
