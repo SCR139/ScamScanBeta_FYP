@@ -234,8 +234,8 @@ scamscan-beta/
 
 If you use ScamScan Beta in your research, please cite:
 
-    PakYuMarco, Chan. (2026). ScamScan Beta: A Multi‑Modal Transformer with
-    Hierarchical Decision Fusion for Real‑World Phishing Detection.
+    Chan, P. Y. M., & Huang, H. (2026). ScamScan Beta: A Multi‑Modal Transformer
+    with Hierarchical Decision Fusion for Real‑World Phishing Detection.
 
 For the datasets and baseline comparisons:
 
